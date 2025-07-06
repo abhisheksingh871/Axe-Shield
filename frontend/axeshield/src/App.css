@@ -1,0 +1,108 @@
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    padding: 10px;
+    font-size: 16px;
+    width: 70%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.input-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-group button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.violation-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.violation-list li {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.export-button {
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.csv-button {
+    background-color: #28a745;
+    font-size: 16px;
+    padding: 12px 24px;
+    margin: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.pdf-button {
+    background-color: #dc3545;
+    font-size: 16px;
+    padding: 12px 24px;
+    margin: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.csv-button:hover {
+    background-color: #218838;
+}
+
+.pdf-button:hover {
+    background-color: #c82333;
+}
+
+.help-button {
+    font-size: 16px;
+    padding: 12px 24px;
+    background-color: #6c63ff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.help-button:hover {
+    background-color: #574fd6;
+}
+
+.loading-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
